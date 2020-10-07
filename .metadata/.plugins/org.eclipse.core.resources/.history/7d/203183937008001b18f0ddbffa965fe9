@@ -1,0 +1,34 @@
+package tiposdedatos;
+
+public class MiPrimerPrograma {
+
+	public static void main(String[] args) {
+		
+		//tipos de datos
+		// declarar e inicializar
+		int salario = 2500; 
+		short salario2 = 2500;
+		long salario3 = 2500L;
+		//byte salario4=2500; no es válido porque no entra dentro del rango
+        float salario4 = 2500F; 
+        double salario5 = 2500;
+        //int salario6 = 2500.23; no es valido porque tiene decimales
+        boolean paga_extra = true;
+        
+        //declara una variable edad
+        int edad;
+        int edad2;
+        //iniciala a 18
+        edad = 18;
+        edad2 = 40;
+        //imprime por consola
+        System.out.println(edad); //si no ponemos ln alfinal de print no hace salto de linea y quedaria: 1840
+        System.out.println(edad2);
+        
+        
+        
+        
+        
+	}
+
+}
